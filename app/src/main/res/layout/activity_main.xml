@@ -11,4 +11,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <com.tongue.face.ai.tonguelandmarker.TongueLandmarkerPreviewView
+        android:id="@+id/tongue_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#CC202124"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/face_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="测试 Face"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/tongue_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="测试舌头"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
 </FrameLayout>

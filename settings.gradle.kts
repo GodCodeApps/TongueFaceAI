@@ -25,4 +25,5 @@ dependencyResolutionManagement {
 rootProject.name = "TongueFaceAI"
 include(":app")
 include(":face-landmarker")
+include(":tongue-landmarker")
  

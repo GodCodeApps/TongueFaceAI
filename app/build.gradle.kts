@@ -35,6 +35,7 @@ android {
 
 dependencies {
     implementation(project(":face-landmarker"))
+    implementation(project(":tongue-landmarker"))
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
